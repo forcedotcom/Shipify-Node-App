@@ -1,0 +1,25 @@
+{
+  "name": "shipment",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.1.0",
+    "ejs": "*",
+    "request": "*",
+    "base64url": "*",
+    "salesforce-signed-request": "*"
+  },
+  "devDependencies": {
+    "supertest": "*",
+    "mocha": "*",
+    "should": "*",
+    "chai": "*",
+    "nock": "*"
+  },
+  "scripts": {
+    "test": "make test-all"
+  }
+}
