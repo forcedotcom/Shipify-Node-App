@@ -21,7 +21,7 @@ Shipment.prototype.processSignedRequest = function processSignedRequest(signedRe
 
 Shipment.prototype.getInvoices = function getInvoices(authorization, instanceUrl, warehouseId) {
 	// Start building query on all invoices
-	var q = 'SELECT Invoice__c From Line_Item__C';
+	var q = 'SELECT Invoice__c From Line_Item__c';
 
 	/* if a parameter is specified with the warehouse id from a VF page, this will grab that warehouseId and filter the list of line items
 	* to only show line items related to merchandise from that particular warehouse */
